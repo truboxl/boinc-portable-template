@@ -1,0 +1,5 @@
+<cc_config>
+    <options>
+        <allow_multiple_clients>1</allow_multiple_clients>
+    </options>
+</cc_config>
