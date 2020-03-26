@@ -1,4 +1,5 @@
-:: Set up the current directory as temporary PATH where boinc.exe and boincmgr.exe are located
+:: Set up the current directory as temporary PATH where boinc.exe and
+:: boincmgr.exe are located
 pushd %~dp0
 
 :: Default is localhost

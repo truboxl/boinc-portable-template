@@ -2,13 +2,14 @@
 # BOINC on Linux is a mess
 # There is no one BOINC runs on all Linux distro
 
-# Recommend install BOINC client and manager from distro's package manager to automatically install
-# missing dependencies or better yet compile BOINC yourself
-# Then start BOINC in user method rather than systemd method if you dont like messing
-# /var/lib/boinc
+# Recommend install BOINC client and manager from distro's package manager to
+# automatically install missing dependencies or better yet compile BOINC
+# yourself
+# Then start BOINC in user method rather than systemd method if you dont like
+# messing /var/lib/boinc
 
-# Note that this probably wont be as portable as running off USB but you can definitely migrate
-# to another distro more easily
+# Note that this probably wont be as portable as running off USB but you can
+# definitely migrate to another distro more easily
 
 PATH=${PATH}:$PWD
 if [ $(which boinc) == '' ]; then
