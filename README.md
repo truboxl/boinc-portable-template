@@ -18,7 +18,6 @@ A collection of scripts that can easily set up multiple BOINC clients in a porta
 
 1. Copy all the contents in `netinstall\temp2\Program Files 64\BOINC` to `portable` folder
 2. Copy all the files with `windows-` prefix from `scripts` folder to `portable` folder
-3. Copy `appdata` folder into `portable` folder
 4. The `portable` folder is ready to be deployed / copied to a USB stick
 5. **Remember to change the password in `portable\appdata\gui_rpc_auth.cfg` and `portable\windows-applauncher-31417-manager.bat`**
 
